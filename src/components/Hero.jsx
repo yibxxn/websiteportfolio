@@ -11,7 +11,18 @@ const Hero = () => {
         <div className="w-5 h-5 rounded-full bg-white" />
         <div className="w-1 sm:h-80 h-40 white-gradient "/>
         </div>
+        <div>
+        <h1 className={`${styles.heroHeadText}text-white`}>
+        Hi, I'm <span className="text-[#962BB8]">Yi Bin</span>
+      </h1>
+      <p className={`${styles.heroSubText} mt-2
+      text-white-100`}>
+        Currenty a CS student, developing 
+        <br className="sm:block hidden"/>websites and user interfaces on the side
+      </p>
       </div>
+      </div>
+    <ComputersCanvas/>
     </section>
 
   )
